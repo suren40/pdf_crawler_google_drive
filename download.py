@@ -1,9 +1,10 @@
 import csv
 from google_drive_downloader import GoogleDriveDownloader as gdd
-with open ('link.csv','rt') as f:
+with open ('drive.csv','rt') as f:
 	data = csv.reader(f)
 	item_list = list(data)
-for i in range(9,15):
+	print(len(item_list))
+for i in range(205,len(item_list)):
 	link = item_list[i][0].strip()
 	print(link)
 	file_name = item_list[i][1]+'.pdf'
