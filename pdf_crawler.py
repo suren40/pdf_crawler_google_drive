@@ -21,7 +21,7 @@ def crawl(url):
 	
 
 if __name__ == "__main__":
-	with open('data.csv','rt') as f:
+	with open('data_2.csv','rt') as f:
 		data = csv.reader(f)
 		num = 1
 		for row in data:
