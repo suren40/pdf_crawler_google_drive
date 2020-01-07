@@ -3,7 +3,16 @@
 The intension of the script was to download the all the pdf files
 related to my Electrical subject which provided by the [Engineering Reference](https://www.engineerrefe.com/search/label/english%20electrical?&max-results=9)
 .
+----
+For those who want to just download the pdf file using python :
+the steps to follow is :
+1. Clone my repo 
+	git clone git@github.com:suren40/pdf_crawler_google_drive.git
+2. Install google drive downloader module
+	pip install googledrivedownloader -t .
 
+3. Download the file just by typing put the number if the error comes to start from the ls remaining.
+	python downdload.py 1
 
 The steps I followed,modules and methods.  I used  are given below in my own words.
 
